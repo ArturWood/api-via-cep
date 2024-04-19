@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "6b8ad1c1-0098-40ee-8449-37ee330a627d",
+		"name": "Api Via Cep",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21348557"
+	},
+	"item": [
+		{
+			"name": "Get Address",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/consulta-cep/01001000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"consulta-cep",
+						"01001000"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
