@@ -12,7 +12,7 @@ import java.util.Objects;
 @Service
 public class ConsultaCepService {
     private final String URL = "https://viacep.com.br/ws/";
-    private RestTemplate restTemplate = new RestTemplate();
+    private final RestTemplate restTemplate = new RestTemplate();
 
     public AddressResponseDto getAddress(String cep) {
         String editedUrl = editUrl(cep);
