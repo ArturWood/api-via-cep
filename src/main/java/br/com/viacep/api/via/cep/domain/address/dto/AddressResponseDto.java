@@ -11,4 +11,8 @@ public record AddressResponseDto(
     public AddressResponseDto(AddressResultDto response) {
         this(response.cep(), response.logradouro(), response.bairro(), response.localidade(), response.uf(), response.ddd());
     }
+
+    public AddressResponseDto(String message) {
+        this(null, message, null, null, null, null);
+    }
 }
