@@ -31,6 +31,7 @@ cd api-via-cep
 A aplicação expõe o seguinte endpoint:
 
 - `GET /consulta-cep/{cep}`: Retorna um DTO com informações especificas coletadas da API Via CEP.
+- `POST /consulta-cep`: Levando no body da requisição uma lista de CEPs para serem consultados.
 
 ## Estrutura do Projeto
 
@@ -66,5 +67,8 @@ Links para uso e documentação:
 https://viacep.com.br/<br>
 http://localhost:8080/swagger-ui/index.html
 
-![image](https://github.com/ArturWood/api-via-cep/assets/111249818/10af9bff-aef3-479e-9188-2704fc220670)
+![image](https://github.com/ArturWood/api-via-cep/assets/111249818/adf3c267-ff99-4345-b372-d2bd56d551d4)
+
 ![image](https://github.com/ArturWood/api-via-cep/assets/111249818/4ded373b-0722-43ba-a6ad-b62efb216afd)
+
+![image](https://github.com/ArturWood/api-via-cep/assets/111249818/2fc299e4-a330-4984-911f-906e1d6e1f0c)
