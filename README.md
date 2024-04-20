@@ -10,6 +10,7 @@ Esta é uma aplicação Java que permite realizar consultas de CEP utilizando a 
 - Java Development Kit (JDK) versão 8 ou superior instalado
 - IDE Java (como Eclipse ou IntelliJ) ou um editor de texto para escrever o código
 - Conexão à internet para consumir a API Via CEP
+- Postman (opcional, para testar os endpoints localmente)
 
 ## Configuração
 
@@ -52,6 +53,7 @@ O projeto possui a seguinte estrutura de arquivos:
 └── pom.xml
 ```
 
+- O pacote `controller` contém as classes que definem os endpoints da API.
 - O pacote `service` contém a classe `ConsultaCepService` que realiza a chamada à API Via CEP para obter os dados do CEP.
 - O pacote `domain` contém os records que representam os dados que trafegam pela API, como a resposta a chamada externa `AddressResultDto`, e a resposta do controller `AddressResponseDto`.
 - O pacote `infra` contém a classe `ExceptionEntityHandler` responsavel por lidar com as exceptions lançadas pelo controller ou service.
@@ -61,10 +63,12 @@ O projeto possui a seguinte estrutura de arquivos:
 
 ## Documentação
 
-No projeto foi adicionado a dependência `springdoc` para facilitar a documentação e visualização dos endpoints;<br>
+No projeto foi adicionado a dependência `springdoc` para facilitar a documentação e visualização dos endpoints (acessar rodando localmente);<br>
+Alem das dependencias para desenvolvimento com Spring Framework - Web, Bean;<br>
 Links para uso e documentação:
 
 https://viacep.com.br/<br>
+https://docs.spring.io/spring-boot/docs/current/reference/html/web.html<br>
 http://localhost:8080/swagger-ui/index.html
 
 ![image](https://github.com/ArturWood/api-via-cep/assets/111249818/adf3c267-ff99-4345-b372-d2bd56d551d4)
