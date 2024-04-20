@@ -25,6 +25,34 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Get Addresses",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"cep\": \"01001000\"\r\n    },\r\n    {\r\n        \"cep\": \"11001000\"\r\n    },\r\n    {\r\n        \"cep\": \"01310200\"\r\n    },\r\n    {\r\n        \"cep\": \"70002900\"\r\n    },\r\n    {\r\n        \"cep\": \"40110160\"\r\n    },\r\n    {\r\n        \"cep\": \"20031100\"\r\n    },\r\n    {\r\n        \"cep\": \"52010030\"\r\n    },\r\n    {\r\n        \"cep\": \"58043360\"\r\n    },\r\n    {\r\n        \"cep\": \"60175000\"\r\n    },\r\n    {\r\n        \"cep\": \"30140001\"\r\n    },\r\n    {\r\n        \"cep\": \"29060360\"\r\n    },\r\n    {\r\n        \"cep\": \"80010030\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/consulta-cep",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"consulta-cep"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
