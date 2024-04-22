@@ -7,7 +7,7 @@ Esta é uma aplicação Java que permite realizar consultas de CEP utilizando a 
 
 ## Pré-requisitos
 
-- Java Development Kit (JDK) versão 8 ou superior instalado
+- Java Development Kit (JDK) versão 17
 - IDE Java (como Eclipse ou IntelliJ) ou um editor de texto para escrever o código
 - Conexão à internet para consumir a API Via CEP
 - Postman (opcional, para testar os endpoints localmente)
